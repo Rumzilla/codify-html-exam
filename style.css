@@ -1,0 +1,475 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato';
+    font-style: normal;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    max-width: 1116px;
+    width: 100%;
+    margin: 0 auto;
+}
+.start {
+    background: url(./img/phones-bg.png) center right/67% no-repeat;
+    background-color: #F4F6F9;
+}
+.sports-logo {
+    margin-top: 63px;
+}
+
+/* TITLES */
+
+.main-title {
+    display: block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    color: #333333;
+    max-width: 546px;
+    width: 100%;
+}
+.subtitle {
+    display: block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4F4F4F;
+}
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+}
+.blue-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+}
+.learn-more {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    text-decoration: none;
+}
+
+/* END TITLES */
+.stores {
+    display: flex;
+}
+.apple-store {
+    margin-right: 35px;
+}
+.start-wrap .main-title {
+    margin-top: 133px;
+}
+.start-wrap .subtitle {
+    margin-top: 30px;
+    font-size: 16px;
+    max-width: 453px;
+    width: 100%;
+}
+.start-wrap .stores {
+    margin-top: 50px;
+    padding-bottom: 164px;
+}
+.experience {
+    background: url(./img/footbalists-bg.png) top center/cover no-repeat;
+    padding-bottom: 117px;
+}
+.experience-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.arsenal-chelsea {
+    margin-top: 109px;
+}
+.experience-text {
+    margin-top: 133px;
+}
+.experience-text .title {
+    margin-top: 27px;
+}
+.experience-text .subtitle {
+    margin-top: 27px;
+    font-size: 16px;
+    max-width: 407px;
+    width: 100%;
+}
+.experience-text .learn-more {
+    display: block;
+    margin-top: 22px;
+}
+.user {
+    background: url(./img/phone-bg.png) center center/cover no-repeat;
+}
+.user-wrap {
+    padding-top: 217px;
+    padding-bottom: 171px;
+}
+.user-wrap .title {
+    margin-top: 27px;
+}
+.user-wrap .subtitle {
+    margin-top: 27px;
+    font-size: 16px;
+    max-width: 480px;
+    width: 100%;
+}
+.user-wrap .learn-more {
+    display: block;
+    margin-top: 54px;
+}
+.mobile-image {
+    display: none;
+    background: url(./img/mobile-phone-bg.svg) center center/cover no-repeat;
+}
+.features {
+    background: url(./img/blue-bg.png) center center/cover no-repeat;
+    background-color: #00ADEE;
+    padding-bottom: 65px;
+}
+.features-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFFFFF;
+    padding-top: 76px;
+    margin-bottom: 58px;
+}
+.features-wrap {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 90px;
+}
+.wrap-item {
+
+}
+.video-icon {
+    background: url(./img/video-icon.svg) center center/cover no-repeat;
+    width: 36px;
+    height: 30px;
+}
+.bell-icon {
+    background: url(./img/bell-icon.svg) center center/cover no-repeat;
+    width: 33px;
+    height: 32px;
+}
+.hd-icon {
+    background: url(./img/hd-icon.svg) center center/cover no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.flag-icon {
+    background: url(./img/flag-icon.svg) center center/cover no-repeat;
+    width: 25px;
+    height: 28px;
+}
+.cards-icon {
+    background: url(./img/cards-icon.svg) center center/cover no-repeat;
+    width: 35px;
+    height: 31px;
+}
+.diagram-icon {
+    background: url(./img/diagram-icon.svg) center center/ cover no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.phone-icon {
+    background: url(./img/phone-icon.svg) center center/cover no-repeat;
+    width: 28px;
+    height: 36px;
+}
+.people-icon {
+    background: url(./img/people-icon.svg) center center/cover no-repeat;
+    width: 36px;
+    height: 23px;
+}
+.options-icon {
+    background: url(./img/options-icon.svg) center center/cover no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.item-text {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.tv {
+    background: #FAFAFA;
+    padding-top: 57px;
+}
+.tv .title {
+    text-align: center;
+}
+.tv-wrap {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: 1fr;
+    gap: 80px;
+    padding-top: 58px;
+    padding-bottom: 70px;
+}
+.sky-logo {
+    max-width: 195px;
+    width: 100%;
+}
+.getup {
+    background-color: #E5E5E5;
+    background: url(./img/phones-image-footer.png) left center/50% no-repeat;
+}
+.getup .container {
+    display: flex;
+    justify-content: flex-end;
+}
+.getup-wrap {
+    text-align: left;
+    max-width: 535px;
+    width: 100%;
+    padding-top: 105px;
+}
+.getup-wrap .subtitle {
+    margin-top: 35px;
+}
+.getup-buttons {
+    margin-top: 38px;
+    margin-bottom: 98px;
+}
+.getup-mobile-image {
+    display: none;
+    background: url(./img/phones-image-footer.png) center center/cover no-repeat;
+}
+.footer {
+    background: #00ADEE;
+}
+.footer-wrap {
+    display: flex;
+    padding: 48px 0px;
+    justify-content: space-between;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+    max-width: 350px;
+    width: 100%;
+}
+.footer-menu-item {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer-social {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100px;
+    width: 100%;
+}
+.social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+.tw-icon {
+    background: url(./img/twitter.svg) center center/cover no-repeat;
+    width: 15px;
+    height: 12px;
+}
+.fb-icon {
+    background: url(./img/fb.svg) center center/cover no-repeat;
+    width: 6px;
+    height: 12px;
+}
+.inst-icon {
+    background: url(./img/inst.svg) center center/cover no-repeat;
+    width: 14px;
+    height: 14px;
+}
+@media (max-width:360px) {
+    .start {
+        background: #F4F6F9;
+    }
+    .start-wrap {
+        text-align: center;
+    }
+    .sports-logo {
+        margin-top: 34px;
+    }
+    .main-title {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .stores {
+        justify-content: space-evenly;
+    }
+    .experience {
+        background: #FFFFFF;
+        padding-bottom: 62px;
+    }
+    .experience-wrap {
+        flex-wrap: wrap-reverse;
+    }
+    .experience-text {
+        margin-top: 54px;
+        text-align: center;
+    }
+    .experience-images {
+        margin-top: 22px;
+        width: 100%;
+        height: 360px;
+        background:linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(./img/footbalists-bg.png) center center/cover no-repeat;
+        background-color: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5);
+    }
+    .arsenal-chelsea {
+        width: 320px;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    }
+    .footer-wrap {
+        flex-wrap: wrap;
+    }
+    .user {
+        background: #FFFFFF;
+    }
+    .user-wrap {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .mobile-image {
+        display: block;
+        width: 360px;
+        height: 565px;
+    }
+    .features {
+        background: #FAFAFA;
+    }
+    .features-title {
+        color: #333333;
+        padding-top: 42px;
+    }
+    .item-text {
+        color: #4F4F4F;
+        width: 311px;
+    }
+    .features-wrap {
+        text-align: center;
+    }
+    .wrap-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-icon {
+        background: url(./img/blue-tv.svg) center center/cover no-repeat;
+        text-align: center;
+    }
+    .bell-icon {
+        background: url(./img/blue-bell.svg) center center/cover no-repeat;
+    }
+    .hd-icon {
+        background: url(./img/blue-hd.svg) center center/cover no-repeat;
+    }
+    .flag-icon {
+        background: url(./img/blue-flag.svg) center center/cover no-repeat;
+    }
+    .cards-icon {
+        background: url(./img/blue-cards.svg) center center/cover no-repeat;
+    }
+    .diagram-icon {
+        background: url(./img/blue-diagram.svg) center center/cover no-repeat;
+    }
+    .phone-icon {
+        background: url(./img/blue-phone.svg) center center/cover no-repeat;
+    }
+    .people-icon {
+        background: url(./img/blue-people.svg) center center/cover no-repeat;
+    }
+    .options-icon {
+        background: url(./img/blue-options.svg) center center/cover no-repeat;
+    }
+    .tv-wrap {
+        grid-gap: 10px;
+        grid-template-areas:
+          "sports-tv . sports"
+          "nbc designer dn-logo"
+          "sky-sports sky-sports sky-sports";
+    }   
+    .sports-tv {
+        grid-area: sports-tv;
+    }
+    .sports {
+        grid-area: sports;
+        justify-self: center;
+    }
+    .nbc {
+        grid-area: nbc;
+        justify-self: center;
+    }
+    .designer-tech {
+        grid-area: designer;
+        justify-self: center;
+    }
+    .dn-logo {
+        grid-area: dn-logo;
+        justify-self: center;
+    }
+    .sky-logo {
+        grid-area: sky-sports;
+        justify-self: center;
+    }
+    .getup {
+        background: #FFFFFF;
+    }
+    .getup-wrap {
+        padding-top: 19px;
+        text-align: center;
+    }
+    .getup-mobile-image {
+        display: block;
+        height: 360px;
+    }
+    .footer-wrap {
+        flex-direction: column;
+        margin-left: 19px;
+        margin-right: 20px;
+    }
+    .footer-social {
+        order: -1;
+        margin-top: 15px;
+    }
+    .footer-logo {
+        order: -2;
+    }
+    .footer-menu {
+        margin-top: 34px;
+    }
+}
